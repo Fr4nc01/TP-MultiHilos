@@ -174,7 +174,7 @@ namespace TP_Multihilos
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Error con los hilos.");
+                MessageBox.Show(""+ex);
             }
 
         }
